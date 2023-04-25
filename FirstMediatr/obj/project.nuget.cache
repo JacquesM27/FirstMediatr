@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "bJaILesuV6NYwv8INZmu3AOz/+e/J8T72RTEA1wv1takGAH3r8QfKvjz93XL0WGz7t38pyFKdTrGeU1pt3ekjg==",
+  "dgSpecHash": "PioZ8+VcYsZ94pcaC2iT5hpLaR2ZtReKDpqxiguiK7vLNEO9YtBvT7Z6T1db6qqlmTuqv/1T8RDwjkx5ana3/A==",
   "success": true,
   "projectFilePath": "C:\\Projekty\\projekty nauka\\FirstMediatr\\FirstMediatr\\FirstMediatr.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\jakmi\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
+    "C:\\Users\\jakmi\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\jakmi\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.1\\microsoft.aspnetcore.openapi.7.0.1.nupkg.sha512",
     "C:\\Users\\jakmi\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\jakmi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\jakmi\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
     "C:\\Users\\jakmi\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\jakmi\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
