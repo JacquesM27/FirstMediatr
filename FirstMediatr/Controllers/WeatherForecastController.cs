@@ -25,7 +25,7 @@ namespace FirstMediatr.Controllers
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
-            _mediator.Send(new TestQuery { Property = "dupa" });
+            //_mediator.Send(new TestQuery { Property = "dupa" });
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
