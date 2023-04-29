@@ -1,4 +1,5 @@
-﻿using FirstMediatr.Functions.Query;
+﻿using FirstMediatr.Functions.Notification;
+using FirstMediatr.Functions.Query;
 using FirstMediatr.Model;
 using MediatR;
 using Microsoft.AspNetCore.Http;
@@ -18,11 +19,19 @@ namespace FirstMediatr.Controllers
         }
 
         [HttpGet]
+        [Route("books")]
         public async Task<List<Book>> GetAllBooks()
         {
             var request = new GetAllBooksQuery { OrderOption = Enum.OrderByBookOptions.Date };
             var result = await _mediator.Send(request);
             return result;
+        }
+
+        [HttpPost]
+        [Route("addbook")]
+        public async Task AddBook(string title)
+        {
+            await _mediator.Publish(new AddBookNotification { Title = title });
         }
     }
 }

@@ -1,5 +1,7 @@
 
 
+using FirstMediatr.Functions.PipelineBehavior;
+using MediatR;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,6 +15,11 @@ builder.Services.AddSwaggerGen();
 
 //builder.Services.AddMediatR(c => c.RegisterServicesFromAssemblyContaining<Program>());
 builder.Services.AddMediatR(c => c.RegisterServicesFromAssemblies(Assembly.GetExecutingAssembly()));
+builder.Services.AddTransient(typeof(IPipelineBehavior<,>),
+        typeof(LoggingBehavior<,>));
+
+builder.Services.AddTransient(typeof(IPipelineBehavior<,>),
+        typeof(ConsoleWriteLineBehavior<,>));
 
 var app = builder.Build();
 
