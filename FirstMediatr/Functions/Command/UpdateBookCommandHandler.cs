@@ -1,4 +1,5 @@
 ﻿using FirstMediatr.DummyData;
+using FirstMediatr.Functions.Event;
 using FirstMediatr.Model;
 using MediatR;
 
@@ -6,7 +7,12 @@ namespace FirstMediatr.Functions.Command
 {
     public class UpdateBookCommandHandler : IRequestHandler<UpdateBookCommand>
     {
-        public Task Handle(UpdateBookCommand request, CancellationToken cancellationToken)
+        private readonly IMediator _mediator;
+        public UpdateBookCommandHandler(IMediator mediator)
+        {
+            _mediator = mediator;
+        }
+        public async Task Handle(UpdateBookCommand request, CancellationToken cancellationToken)
         {
             var book = new Book
             {
@@ -19,12 +25,13 @@ namespace FirstMediatr.Functions.Command
                 Rate = request.Rate,
                 Title = request.Title,
             };
-            int index = StaticData.Books.FindIndex(x => x.Id== request.Id);
+            int index = StaticData.Books.FindIndex(x => x.Id == request.Id);
             if(index == -1)
             {
                 StaticData.Books[index] = book;
             }
-            return Task.CompletedTask;
+            await _mediator.Publish(new BookUpdatedEvent(book), cancellationToken);
+            //return Task.CompletedTask;
         }
     }
 }
