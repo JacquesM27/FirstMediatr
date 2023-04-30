@@ -1,5 +1,6 @@
 
 
+using FirstMediatr.Configuration;
 using FirstMediatr.Functions.PipelineBehavior;
 using MediatR;
 using System.Reflection;
@@ -35,5 +36,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.RegisterCustomMiddlewares();
 
 app.Run();
