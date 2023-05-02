@@ -52,5 +52,11 @@ namespace FirstMediatr.Controllers
             await _mediator.Send(updateCommand);
         }
 
+        [HttpDelete]
+        public async Task DeleteBook(int id)
+        {
+            throw new NotImplementedException("This method has not yet been implemented!");
+        }
+
     }
 }

@@ -22,6 +22,8 @@ builder.Services.AddTransient(typeof(IPipelineBehavior<,>),
 builder.Services.AddTransient(typeof(IPipelineBehavior<,>),
         typeof(ConsoleWriteLineBehavior<,>));
 
+builder.Services.RegisterServices();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -37,6 +39,8 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-app.RegisterCustomMiddlewares();
+app.RegisterCustomMiddleware();
+app.RegisterCounterMiddleware();
+app.RegisterExceptionHandlerMiddleware();
 
 app.Run();
