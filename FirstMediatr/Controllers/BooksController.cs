@@ -13,10 +13,12 @@ namespace FirstMediatr.Controllers
     public class BooksController : ControllerBase
     {
         private readonly IMediator _mediator;
-
-        public BooksController(IMediator mediator)
+        private readonly ILogger<BooksController> _logger;
+        public BooksController(IMediator mediator, ILogger<BooksController> logger)
         {
             _mediator = mediator;
+            _logger = logger;
+            _logger.LogDebug(1, "NLog injected to BooksController");
         }
 
         [HttpGet]
@@ -55,6 +57,7 @@ namespace FirstMediatr.Controllers
         [HttpDelete]
         public async Task DeleteBook(int id)
         {
+            _logger.LogInformation("Delete book endpoint is not implemented");
             throw new NotImplementedException("This method has not yet been implemented!");
         }
 

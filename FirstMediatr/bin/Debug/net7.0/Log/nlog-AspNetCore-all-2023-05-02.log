@@ -1,0 +1,54 @@
+2023-05-02 19:45:51.5064|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMQB6K5V1QK5" received HEADERS frame for stream ID 9 with length 66 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-05-02 19:45:51.5064|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 DELETE https://localhost:7228/api/Books?id=234 - - 
+2023-05-02 19:45:51.5064|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-05-02 19:45:51.5064|1001|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Books' 
+2023-05-02 19:45:51.5172|1005|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'FirstMediatr.Controllers.BooksController.DeleteBook (FirstMediatr)' with route pattern 'api/Books' is valid for the request path '/api/Books' 
+2023-05-02 19:45:51.5172|1|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'FirstMediatr.Controllers.BooksController.DeleteBook (FirstMediatr)' 
+2023-05-02 19:45:51.5172|15|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint. 
+2023-05-02 19:45:51.5172|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FirstMediatr.Controllers.BooksController.DeleteBook (FirstMediatr)' 
+2023-05-02 19:45:51.5675|102|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "DeleteBook", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task DeleteBook(Int32) on controller FirstMediatr.Controllers.BooksController (FirstMediatr). 
+2023-05-02 19:45:51.5675|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2023-05-02 19:45:51.5675|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2023-05-02 19:45:51.5675|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2023-05-02 19:45:51.5675|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2023-05-02 19:45:51.5675|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2023-05-02 19:45:51.5675|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller FirstMediatr.Controllers.BooksController (FirstMediatr) 
+2023-05-02 19:45:51.5675|1|DEBUG|FirstMediatr.Controllers.BooksController|NLog injected to BooksController 
+2023-05-02 19:45:51.5775|2|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller FirstMediatr.Controllers.BooksController (FirstMediatr) 
+2023-05-02 19:45:51.5965|22|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'id' of type 'System.Int32' ... 
+2023-05-02 19:45:51.5965|44|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinder|Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ... 
+2023-05-02 19:45:51.5965|45|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinder|Done attempting to bind parameter 'id' of type 'System.Int32'. 
+2023-05-02 19:45:51.5965|23|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'id' of type 'System.Int32'. 
+2023-05-02 19:45:51.5965|26|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'id' of type 'System.Int32' ... 
+2023-05-02 19:45:51.5965|27|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'id' of type 'System.Int32'. 
+2023-05-02 19:45:51.5965|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-05-02 19:45:51.5965|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-05-02 19:45:51.5965|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-05-02 19:45:51.5965|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-05-02 19:45:51.6566|101|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method FirstMediatr.Controllers.BooksController.DeleteBook (FirstMediatr) - Validation state: Valid 
+2023-05-02 19:45:51.6566|102|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method FirstMediatr.Controllers.BooksController.DeleteBook (FirstMediatr) with arguments (234) 
+2023-05-02 19:45:51.6566|0|INFO|FirstMediatr.Controllers.BooksController|Delete book endpoint is not implemented 
+2023-05-02 19:45:51.7151|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-05-02 19:45:51.7151|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-05-02 19:45:51.7151|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-05-02 19:45:51.7151|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-05-02 19:45:51.7211|105|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FirstMediatr.Controllers.BooksController.DeleteBook (FirstMediatr) in 147.3108ms 
+2023-05-02 19:45:51.7211|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FirstMediatr.Controllers.BooksController.DeleteBook (FirstMediatr)' 
+2023-05-02 19:45:52.6384|0|ERROR|FirstMediatr.Middleware.RestApiExceptionHandlingMiddleware|Not implemented exception occured! System.NotImplementedException: This method has not yet been implemented!
+   at FirstMediatr.Controllers.BooksController.DeleteBook(Int32 id) in C:\Projekty\projekty nauka\FirstMediatr\FirstMediatr\Controllers\BooksController.cs:line 61
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at FirstMediatr.Middleware.RestApiExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Projekty\projekty nauka\FirstMediatr\FirstMediatr\Middleware\RestApiExceptionHandlingMiddleware.cs:line 22
+2023-05-02 19:45:52.6503|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 DELETE https://localhost:7228/api/Books?id=234 - - - 200 - application/json 1140.6848ms 
+2023-05-02 19:45:52.6503|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMQB6K5V1QK5" sending HEADERS frame for stream ID 9 with length 51 and flags END_HEADERS. 
+2023-05-02 19:45:52.6503|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMQB6K5V1QK5" sending DATA frame for stream ID 9 with length 43 and flags END_STREAM. 
+2023-05-02 19:45:52.6503|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMQB6K5V1QK5" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 

@@ -33,3 +33,7 @@ C:\Projekty\projekty nauka\FirstMediatr\FirstMediatr\obj\Debug\net7.0\refint\Fir
 C:\Projekty\projekty nauka\FirstMediatr\FirstMediatr\obj\Debug\net7.0\FirstMediatr.pdb
 C:\Projekty\projekty nauka\FirstMediatr\FirstMediatr\obj\Debug\net7.0\FirstMediatr.genruntimeconfig.cache
 C:\Projekty\projekty nauka\FirstMediatr\FirstMediatr\obj\Debug\net7.0\ref\FirstMediatr.dll
+C:\Projekty\projekty nauka\FirstMediatr\FirstMediatr\bin\Debug\net7.0\nlog.config
+C:\Projekty\projekty nauka\FirstMediatr\FirstMediatr\bin\Debug\net7.0\NLog.dll
+C:\Projekty\projekty nauka\FirstMediatr\FirstMediatr\bin\Debug\net7.0\NLog.Extensions.Logging.dll
+C:\Projekty\projekty nauka\FirstMediatr\FirstMediatr\bin\Debug\net7.0\NLog.Web.AspNetCore.dll
