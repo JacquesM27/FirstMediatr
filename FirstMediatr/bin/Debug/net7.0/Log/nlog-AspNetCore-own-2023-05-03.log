@@ -1,0 +1,25 @@
+2023-05-03 20:38:36.9660|0|DEBUG|Program|init main |url: |action: |Program.<Main>$
+2023-05-03 20:38:38.0643|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7228 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-05-03 20:38:38.0643|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5118 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-05-03 20:38:38.0643|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-05-03 20:38:38.0643|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-05-03 20:38:38.0643|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Projekty\projekty nauka\FirstMediatr\FirstMediatr |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-05-03 20:40:56.9375|0|DEBUG|Program|init main |url: |action: |Program.<Main>$
+2023-05-03 20:40:57.8019|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7228 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-05-03 20:40:57.8019|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5118 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-05-03 20:40:57.8019|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-05-03 20:40:57.8019|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-05-03 20:40:57.8019|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Projekty\projekty nauka\FirstMediatr\FirstMediatr |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-05-03 20:45:22.1018|0|DEBUG|Program|init main |url: |action: |Program.<Main>$
+2023-05-03 20:45:22.8853|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7228 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-05-03 20:45:22.8887|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5118 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-05-03 20:45:22.8887|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-05-03 20:45:22.8887|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-05-03 20:45:22.8887|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Projekty\projekty nauka\FirstMediatr\FirstMediatr |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-05-03 20:45:30.8729|0|INFO|FirstMediatr.Controllers.LibraryMemberController|PostMember method |url: https://localhost/api/LibraryMember|action: PostMember|FirstMediatr.Controllers.LibraryMemberController.PostMember
+2023-05-03 20:46:54.2427|0|DEBUG|Program|init main |url: |action: |Program.<Main>$
+2023-05-03 20:46:55.0654|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7228 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-05-03 20:46:55.0654|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5118 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-05-03 20:46:55.0654|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-05-03 20:46:55.0654|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-05-03 20:46:55.0654|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Projekty\projekty nauka\FirstMediatr\FirstMediatr |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted

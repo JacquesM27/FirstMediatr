@@ -4,6 +4,7 @@ using MediatR;
 using System.Reflection;
 using NLog;
 using NLog.Web;
+using FluentValidation.AspNetCore;
 
 var logger = LogManager.Setup().LoadConfigurationFromAppSettings().GetCurrentClassLogger();
 logger.Debug("init main");
@@ -31,6 +32,18 @@ try
             typeof(ConsoleWriteLineBehavior<,>));
 
     builder.Services.RegisterServices();
+
+    //builder.Services.AddFluentValidationAutoValidation().AddFluentValidationClientsideAdapters();
+    builder.Services.AddControllers()
+                    .AddFluentValidation(options =>
+                    {
+                        // Validate child properties and root collection elements
+                        options.ImplicitlyValidateChildProperties = true;
+                        options.ImplicitlyValidateRootCollectionElements = true;
+
+                        // Automatic registration of validators in assembly
+                        options.RegisterValidatorsFromAssembly(Assembly.GetExecutingAssembly());
+                    });
 
     var app = builder.Build();
 

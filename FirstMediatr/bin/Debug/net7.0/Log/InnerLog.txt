@@ -1,0 +1,32 @@
+2023-05-03 20:38:36.8866 Info Message Template Auto Format enabled
+2023-05-03 20:38:36.8929 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-03 20:38:36.9273 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-03 20:38:36.9273 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-05-03 20:38:36.9273 Info Registered target NLog.Targets.FileTarget(Name=errorFile-web)
+2023-05-03 20:38:36.9273 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-05-03 20:38:36.9462 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, errorFile-web, ConfigItems=84, FilePath=C:\Projekty\projekty nauka\FirstMediatr\FirstMediatr\bin\Debug\net7.0\NLog.config
+2023-05-03 20:38:37.7301 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, errorFile-web, ConfigItems=84, FilePath=C:\Projekty\projekty nauka\FirstMediatr\FirstMediatr\bin\Debug\net7.0\NLog.config
+2023-05-03 20:40:56.8523 Info Message Template Auto Format enabled
+2023-05-03 20:40:56.8584 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-03 20:40:56.8961 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-03 20:40:56.8961 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-05-03 20:40:56.8961 Info Registered target NLog.Targets.FileTarget(Name=errorFile-web)
+2023-05-03 20:40:56.8961 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-05-03 20:40:56.9162 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, errorFile-web, ConfigItems=84, FilePath=C:\Projekty\projekty nauka\FirstMediatr\FirstMediatr\bin\Debug\net7.0\NLog.config
+2023-05-03 20:40:57.4946 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, errorFile-web, ConfigItems=84, FilePath=C:\Projekty\projekty nauka\FirstMediatr\FirstMediatr\bin\Debug\net7.0\NLog.config
+2023-05-03 20:45:22.0290 Info Message Template Auto Format enabled
+2023-05-03 20:45:22.0346 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-03 20:45:22.0665 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-03 20:45:22.0665 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-05-03 20:45:22.0665 Info Registered target NLog.Targets.FileTarget(Name=errorFile-web)
+2023-05-03 20:45:22.0665 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-05-03 20:45:22.0839 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, errorFile-web, ConfigItems=84, FilePath=C:\Projekty\projekty nauka\FirstMediatr\FirstMediatr\bin\Debug\net7.0\NLog.config
+2023-05-03 20:45:22.5852 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, errorFile-web, ConfigItems=84, FilePath=C:\Projekty\projekty nauka\FirstMediatr\FirstMediatr\bin\Debug\net7.0\NLog.config
+2023-05-03 20:46:54.1768 Info Message Template Auto Format enabled
+2023-05-03 20:46:54.1768 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-03 20:46:54.2098 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-03 20:46:54.2098 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-05-03 20:46:54.2098 Info Registered target NLog.Targets.FileTarget(Name=errorFile-web)
+2023-05-03 20:46:54.2098 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-05-03 20:46:54.2263 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, errorFile-web, ConfigItems=84, FilePath=C:\Projekty\projekty nauka\FirstMediatr\FirstMediatr\bin\Debug\net7.0\NLog.config
+2023-05-03 20:46:54.7423 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, errorFile-web, ConfigItems=84, FilePath=C:\Projekty\projekty nauka\FirstMediatr\FirstMediatr\bin\Debug\net7.0\NLog.config

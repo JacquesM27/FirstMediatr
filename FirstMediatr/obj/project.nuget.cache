@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Nmequs60SoCQOwYiNRbkTMZNawMaS+A5oMPnepB2ZXDkYPZxK44bw4kqbWGJ0+yJ4W8yPGnBA6O030cpcMa6Kw==",
+  "dgSpecHash": "NwJg8CrYESV8CKCZhdCmbdjRF5rKs76IlTvFvwNHCvm3EH3YoEDpM9llxsmjZuIxiGq65HWeBQiuv0zvTRasHQ==",
   "success": true,
   "projectFilePath": "C:\\Projekty\\projekty nauka\\FirstMediatr\\FirstMediatr\\FirstMediatr.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\jakmi\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\jakmi\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\jakmi\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\jakmi\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
     "C:\\Users\\jakmi\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\jakmi\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.1\\microsoft.aspnetcore.openapi.7.0.1.nupkg.sha512",

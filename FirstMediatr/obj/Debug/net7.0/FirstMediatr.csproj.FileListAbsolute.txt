@@ -37,3 +37,6 @@ C:\Projekty\projekty nauka\FirstMediatr\FirstMediatr\bin\Debug\net7.0\nlog.confi
 C:\Projekty\projekty nauka\FirstMediatr\FirstMediatr\bin\Debug\net7.0\NLog.dll
 C:\Projekty\projekty nauka\FirstMediatr\FirstMediatr\bin\Debug\net7.0\NLog.Extensions.Logging.dll
 C:\Projekty\projekty nauka\FirstMediatr\FirstMediatr\bin\Debug\net7.0\NLog.Web.AspNetCore.dll
+C:\Projekty\projekty nauka\FirstMediatr\FirstMediatr\bin\Debug\net7.0\FluentValidation.dll
+C:\Projekty\projekty nauka\FirstMediatr\FirstMediatr\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
+C:\Projekty\projekty nauka\FirstMediatr\FirstMediatr\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
