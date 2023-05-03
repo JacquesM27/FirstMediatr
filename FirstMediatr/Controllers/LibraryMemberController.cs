@@ -26,10 +26,10 @@ namespace FirstMediatr.Controllers
         public IActionResult PostMember(LibraryMember libraryMember)
         {
             _logger.LogInformation("PostMember method");
-            if (!ModelState.IsValid)
-            {
-                return StatusCode(StatusCodes.Status400BadRequest, ModelState);
-            }
+            //if (!ModelState.IsValid)
+            //{
+            //    return StatusCode(StatusCodes.Status400BadRequest, ModelState);
+            //}
             return StatusCode(StatusCodes.Status200OK, "valid model");
         }
     }
